@@ -18,6 +18,5 @@ $('.randomFont').click(function () {
   var style = Math.floor(Math.random() * fonts.length);
   $('p').css('font-family', fonts[style]);
   $('h1').css('font-family', fonts[style]);
-  document.getElemenById("#fonts").innerHTML = fonts.join();
   console.log(fonts[style]);
 })
