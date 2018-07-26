@@ -32,11 +32,15 @@ var fontSize =
 var index = 0;
 
 $('.randomFontSize').click(function () {
-  if (index < (fontSize.length-1)) {
-    index++;
-  } else {
-    index = 0;
+  for (i = 0; i < fontSize[index].length; i++)
+  {
+    $('h1').css('font-size', fontSize[index]);
   }
+  // if (index < (fontSize.length-1)) {
+  //   index++;
+  // } else {
+  //   index = 0;
+  // }
   $('h1').css('font-size', fontSize[index]);
   console.log(fontSize[index]);
 });
