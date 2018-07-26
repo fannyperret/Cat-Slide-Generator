@@ -64,6 +64,6 @@ $('.randomBorder').click(function () {
   console.log(borders[style]);
 })
 
-$('.btn').popover();
-
-document.getElementById('text').value = valeur;
+// $('.btn').popover();
+//
+// document.getElementById('text').value = valeur;
