@@ -9,10 +9,10 @@
     <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Chela+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gaegu|Indie+Flower|Merienda|Noto+Sans|Oswald|Poor+Story|Roboto|Source+Sans+Pro|Titillium+Web" rel="stylesheet">
-    <link rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
+    <!-- <link rel="stylesheet" -->
+    <!-- href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" -->
+    <!-- integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" -->
+    <!-- crossorigin="anonymous"> -->
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
@@ -28,6 +28,10 @@
 
     <div class="container">
 
+<code>
+  <pre><code>/* Feuille de style CSS */
+body {bla: bla;}</code></pre>
+</code>
       <div class="title">
         <h1>Cat Slide Generator</h1>
         <p>Click on each button to change the CSS</p>
@@ -36,12 +40,13 @@
       <div class="instructions">
         <h2>Change colors, fonts and borders here!</h2>
       </div>
-      <div class="row justify-content-center">
-        <button class="col-sm-12 col-md-3 randomColor button btn btn-dark" type="button" name="button" value="color">Background-Color!</button>
-        <button class="col-sm-12 col-md-2 randomFont button btn btn-success" type="button" name="button">Font-Family!</button>
-        <div id="fonts"></div>
-        <button class="col-sm-12 col-md-2 randomColorTitle button btn btn-danger" type="button" name="button">Color-Title!</button>
-        <button class="col-sm-12 col-md-3 randomBackgroundTitle button btn btn-primary" type="button" name="button">Background-Title!</button>
+      <div class="flex-container">
+        <button class="randomColor" type="button" name="button" value="color">Body & h1 Color</button>
+        <button class="randomColorTitle" type="button" name="button">h1 Color</button>
+        <button class="randomColorP" type="button" name="button">p1 Color</button>
+        <button class="randomBackgroundTitle" type="button" name="button">Head Background-Color</button>
+        <button class="randomFont" type="button" name="button">Font-Family</button>
+        <button class="randomFontSize" type="button" name="button">H1 Font-Size</button>
       </div>
 
       <div class="row justify-content-center photo">
@@ -97,6 +102,7 @@
     <script type="text/javascript" src="js/slides.js"></script>
     <script type="text/javascript" src="js/colors.js"></script>
     <script type="text/javascript" src="js/fonts.js"></script>
+    <script type="text/javascript" src="js/font-size.js"></script>
     <script type="text/javascript" src="js/filters.js"></script>
     <script type="text/javascript" src="js/reset.js"></script>
 
