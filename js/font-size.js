@@ -26,7 +26,12 @@ var fontSize =
   '3.2em',
   '3.3em',
   '3.4em',
-  '3.5em'
+  '3.5em',
+  '3.6em',
+  '3.7em',
+  '3.8em',
+  '3.9em',
+  '4em',
 ];
 
 var index = 0;
