@@ -19,11 +19,9 @@
 .title {
   display: block;
   margin: auto;
-  max-width: 500px;
+  max-width: 550px;
   background-color: white;
-  font-family: 'Delius Unicase', cursive;
-  /* margin-top: 30px;
-  margin-bottom: 30px; */
+  font-family: 'Pacifico', cursive;
   padding: 30px;
   border-radius: 10px;
 }
@@ -50,6 +48,8 @@
   padding: 15px;
   border-radius: 50px;
   outline: none;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 .flex-container > button:hover {
   color: DodgerBlue;
