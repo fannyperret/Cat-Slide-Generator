@@ -48,40 +48,44 @@
         <h2>Change colors, fonts and borders here!</h2>
       </div>
       <div class="flex-container">
-        <button class="randomColor" type="button" name="button" value="color">Body & h1 Color</button>
-        <button class="randomColorTitle" type="button" name="button">h1 Color</button>
-        <button class="randomColorP" type="button" name="button">p1 Color</button>
-        <button class="randomBackgroundTitle" type="button" name="button">Head Background-Color</button>
-        <button class="randomFont" type="button" name="button">Font-Family</button>
-        <button class="randomFontSize" type="button" name="button">H1 Font-Size</button>
+        <button class="randomColor blue" type="button" name="button" value="color">Body & h1 Color</button>
+        <button class="randomColorTitle blue" type="button" name="button">h1 Color</button>
+        <button class="randomColorP blue" type="button" name="button">p1 Color</button>
+        <button class="randomBackgroundTitle blue" type="button" name="button">Head Background-Color</button>
+        <button class="randomFont blue" type="button" name="button">Font-Family</button>
+        <button class="randomFontSize blue" type="button" name="button">h1 Font-Size</button>
+        <button class="resetHead yellow" type="button" name="button">Reset Head</button>
       </div>
 
-      <div class="row justify-content-center photo">
-        <button class="col-sm-12 col-md-2 randomBlur button btn btn-primary" type="button" name="button">Blur</button>
-        <button class="col-sm-12 col-md-2  randomBrightness button btn btn-primary" type="button" name="button">Brightness</button>
-        <button class="col-sm-12 col-md-2  randomContrast button btn btn-primary" type="button" name="button">Contrast</button>
-        <button class="col-sm-12 col-md-2  randomHueRotate button btn btn-primary" type="button" name="button">Contrast</button>
-        <button class="col-sm-12 col-md-2  randomInvert button btn btn-primary" type="button" name="button">Invert</button>
-        <button class="col-sm-12 col-md-2  randomOpacity button btn btn-primary" type="button" name="button">Opacity</button>
-        <button class="col-sm-12 col-md-2  randomSaturate button btn btn-primary" type="button" name="button">Saturate</button>
-        <button class="col-sm-12 col-md-2  randomSepia button btn btn-primary" type="button" name="button">Sepia</button>
-        <button class="col-sm-12 col-md-2  randomDropShadow button btn btn-primary" type="button" name="button">Drop-shadow</button>
+      <div class="instructions">
+        <h2>Change the cat color here!</h2>
+      </div>
+      <div class="flex-container">
+        <button class="randomBlur blue" type="button" name="button">Blur</button>
+        <button class="randomBrightness blue" type="button" name="button">Brightness</button>
+        <button class="randomContrast blue" type="button" name="button">Contrast</button>
+        <button class="randomHueRotate blue" type="button" name="button">Contrast</button>
+        <button class="randomInvert blue" type="button" name="button">Invert</button>
+        <button class="randomOpacity blue" type="button" name="button">Opacity</button>
+        <button class="randomSaturate blue" type="button" name="button">Saturate</button>
+        <button class="randomSepia blue" type="button" name="button">Sepia</button>
+        <button class="randomDropShadow blue" type="button" name="button">Drop-shadow</button>
+        <button class="resetStyleImg yellow" type="button" name="button">Reset Style Img</button>
       </div>
 
       <div class="card cat text-center">
         <img class="card-img-top grumpy-cat" id="imgClickAndChange" onclick="changeStyleImg()" src="assets/img/logo-cat.jpg" alt="logo-cat-funny-face">
-        <div class="card-body">
+        <!-- <div class="card-body">
           <figcaption class="card-text"id="cat-phrase" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"></figcaption>
-        </div>
+        </div> -->
       </div>
 
       <div class="instructions">
-        <h2>Changes details here!</h2>
+        <h2>Changes style-borders here!</h2>
       </div>
-      <div class="row justify-content-center">
-        <button class="randomStyleBorder button btn btn-warning" type="button" name="button">Border-Photo!</button>
-        <button class="randomBorder button btn btn-warning" type="button" name="button">Border-Photo!</button>
-        <button class="reset btn btn-secondary" type="button" name="button">RESET</button>
+      <div class="flex-container">
+        <button class="randomBorder blue" type="button" name="button">Border-Photo!</button>
+        <button class="reset yellow" type="button" name="button">RESET</button>
       </div>
 
       <div class="slider"></div>
