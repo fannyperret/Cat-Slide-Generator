@@ -13,17 +13,17 @@ var catPhrases =
 // randomBorder
 var grayscales =
 [
-  'grayscale(0%)',
-  'grayscale(10%)',
-  'grayscale(20%)',
-  'grayscale(30%)',
-  'grayscale(40%)',
-  'grayscale(50%)',
-  'grayscale(60%)',
-  'grayscale(70%)',
-  'grayscale(80%)',
-  'grayscale(90%)',
-  'grayscale(100%)'
+  'grayscale(0.1)',
+  'grayscale(0.2)',
+  'grayscale(0.3)',
+  'grayscale(0.4)',
+  'grayscale(0.5)',
+  'grayscale(0.6)',
+  'grayscale(0.7)',
+  'grayscale(0.8)',
+  'grayscale(0.9)',
+  'grayscale(1)',
+  'grayscale(0)',
 ];
 
 function changeStyleImg () {
@@ -42,12 +42,27 @@ function changeStyleImg () {
 // randomBlur
 var blur =
 [
-  'blur(0px)',
   'blur(1px)',
   'blur(2px)',
   'blur(3px)',
   'blur(4px)',
-  'blur(5px)'
+  'blur(5px)',
+  'blur(6px)',
+  'blur(7px)',
+  'blur(8px)',
+  'blur(9px)',
+  'blur(10px)',
+  'blur(11px)',
+  'blur(12px)',
+  'blur(13px)',
+  'blur(14px)',
+  'blur(15px)',
+  'blur(16px)',
+  'blur(17px)',
+  'blur(18px)',
+  'blur(19px)',
+  'blur(20px)',
+  'blur(0px)'
 ]
 
 $('.randomBlur').click(function () {
@@ -60,16 +75,17 @@ $('.randomBlur').click(function () {
 var brightness =
 [
   'brightness(0)',
-  'brightness(0.10)',
-  'brightness(0.20)',
-  'brightness(0.30)',
-  'brightness(0.40)',
-  'brightness(0.50)',
-  'brightness(0.60)',
-  'brightness(0.70)',
-  'brightness(0.80)',
-  'brightness(0.90)',
+  'brightness(0.1)',
+  'brightness(0.2)',
+  'brightness(0.3)',
+  'brightness(0.4)',
+  'brightness(0.5)',
+  'brightness(0.6)',
+  'brightness(0.7)',
+  'brightness(0.8)',
+  'brightness(0.9)',
   'brightness(1)',
+  'brightness(0)'
 ];
 
 $('.randomBrightness').click(function () {
@@ -81,7 +97,6 @@ $('.randomBrightness').click(function () {
 // randomContrast
 var contrast =
 [
-  'contrast(0%)',
   'contrast(10%)',
   'contrast(20%)',
   'contrast(30%)',
@@ -101,7 +116,8 @@ var contrast =
   'contrast(170%)',
   'contrast(180%)',
   'contrast(190%)',
-  'contrast(200%)'
+  'contrast(200%)',
+  'contrast(0%)',
 ];
 
 $('.randomContrast').click(function () {
@@ -134,7 +150,6 @@ $('.randomHueRotate').click(function () {
 // randomInvert
 var invert =
 [
-  'invert(0%)',
   'invert(10%)',
   'invert(20%)',
   'invert(30%)',
@@ -144,7 +159,8 @@ var invert =
   'invert(70%)',
   'invert(80%)',
   'invert(90%)',
-  'invert(100%)'
+  'invert(100%)',
+  'invert(0%)'
 ];
 
 $('.randomInvert').click(function () {
@@ -156,7 +172,6 @@ $('.randomInvert').click(function () {
 // randomOpacity
 var opacity =
 [
-  'opacity(0%)',
   'opacity(10%)',
   'opacity(20%)',
   'opacity(30%)',
@@ -166,7 +181,8 @@ var opacity =
   'opacity(70%)',
   'opacity(80%)',
   'opacity(90%)',
-  'opacity(100%)'
+  'opacity(100%)',
+  'opacity(0%)',
 ];
 
 $('.randomOpacity').click(function () {
@@ -178,17 +194,17 @@ $('.randomOpacity').click(function () {
 // randomSaturate
 var saturate =
 [
-  'saturate(0)',
-  'saturate(1)',
-  'saturate(2)',
-  'saturate(3)',
-  'saturate(4)',
-  'saturate(5)',
-  'saturate(6)',
-  'saturate(7)',
-  'saturate(8)',
-  'saturate(9)',
-  'saturate(10)'
+  'saturate(10%)',
+  'saturate(20%)',
+  'saturate(30%)',
+  'saturate(40%)',
+  'saturate(50%)',
+  'saturate(60%)',
+  'saturate(70%)',
+  'saturate(80%)',
+  'saturate(90%)',
+  'saturate(100%)',
+  'saturate(0%)'
 ];
 
 $('.randomSaturate').click(function () {
@@ -200,7 +216,6 @@ $('.randomSaturate').click(function () {
 // randomSepia
 var sepia =
 [
-  'sepia(0%)',
   'sepia(10%)',
   'sepia(20%)',
   'sepia(30%)',
@@ -209,7 +224,9 @@ var sepia =
   'sepia(60%)',
   'sepia(70%)',
   'sepia(80%)',
-  'sepia(90%)'
+  'sepia(90%)',
+  'sepia(100%)',
+  'sepia(0%)',
 ];
 
 $('.randomSepia').click(function () {
