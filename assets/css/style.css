@@ -21,49 +21,66 @@
   margin: auto;
   max-width: 500px;
   background-color: white;
-  font-family: 'Delius Unicase', cursive;
-  /* margin-top: 30px;
-  margin-bottom: 30px; */
+  font-family: 'Pacifico', cursive;
   padding: 30px;
   border-radius: 10px;
 }
 .title > h1 {
   color: #3498db;
+  font-size: 2.5em;
   text-align: center;
 }
 .title > p {
+  font-size: 1.2em;
   text-align: center;
 }
 
 /* CSS BUTTONS */
 .flex-container {
-  margin: auto;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+  margin-bottom: 10px;
 }
-.flex-container > button {
+.flex-container > .blue {
   color: white;
+  font-family: 'Courier';
   font-size: 1em;
   background-color: DodgerBlue;
   border-color: DodgerBlue;
   padding: 15px;
   border-radius: 50px;
   outline: none;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
-.flex-container > button:hover {
+.flex-container > .blue:hover {
   color: DodgerBlue;
   background-color: white;
 }
-.flex-container > button:active {
+.flex-container > .blue:active {
   color: white;
   background-color: DodgerBlue;
 }
+.flex-container > .yellow {
+  /* color: white; */
+  font-family: 'Courier';
+  font-size: 1em;
+  border: solid 2px #fed330;
+  background-color: white;
+  padding: 15px;
+  border-radius: 50px;
+  outline: none;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
 
 .grumpy-cat {
+  display: block;
+  margin: auto;
   /* border-radius: 50%; */
-  width: 30%;
-  margin-top: 15px;
+  max-width: 100%;
+  /* margin-top: 15px; */
 }
 .grumpy-cat img {
   border-radius: 0!important;
@@ -122,9 +139,8 @@
 }
 
 .container h2 {
-  color: black;
+  font-size: 1.2em;
   text-align: center;
-  font-size: 1em;
   margin-top: 15px;
   margin-bottom: 15px;
 }
