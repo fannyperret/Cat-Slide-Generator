@@ -13,7 +13,6 @@ var catPhrases =
 // randomBorder
 var grayscales =
 [
-  'grayscale(0%)',
   'grayscale(10%)',
   'grayscale(20%)',
   'grayscale(30%)',
@@ -23,7 +22,8 @@ var grayscales =
   'grayscale(70%)',
   'grayscale(80%)',
   'grayscale(90%)',
-  'grayscale(100%)'
+  'grayscale(100%)',
+  'grayscale(0%)',
 ];
 
 function changeStyleImg () {
@@ -200,7 +200,6 @@ $('.randomSaturate').click(function () {
 // randomSepia
 var sepia =
 [
-  'sepia(0%)',
   'sepia(10%)',
   'sepia(20%)',
   'sepia(30%)',
@@ -209,7 +208,9 @@ var sepia =
   'sepia(60%)',
   'sepia(70%)',
   'sepia(80%)',
-  'sepia(90%)'
+  'sepia(90%)',
+  'sepia(100%)',
+  'sepia(0%)',
 ];
 
 $('.randomSepia').click(function () {
@@ -222,13 +223,28 @@ $('.randomSepia').click(function () {
 var dropShadow =
 [
   'drop-shadow(8px 8px 10px white)',
-  'drop-shadow(8px 8px 10px black)',
-  'drop-shadow(8px 8px 10px blue)',
-  'drop-shadow(8px 8px 10px red)',
-  'drop-shadow(8px 8px 10px green)',
-  'drop-shadow(8px 8px 10px yellow)',
-  'drop-shadow(8px 8px 10px grey)',
-  'drop-shadow(8px 8px 10px pink)'
+  'drop-shadow(30px 10px 4px grey)',
+  'drop-shadow(0 -6mm 4mm black)',
+  'drop-shadow(0 0 0.75rem #fc5c65)',
+  'drop-shadow(8px 8px 10px #fd9644)',
+  'drop-shadow(30px 10px 4px #fed330)',
+  'drop-shadow(0 -6mm 4mm #26de81)',
+  'drop-shadow(0 0 0.75rem #2bcbba)',
+  'drop-shadow(8px 8px 10px #eb3b5a)',
+  'drop-shadow(30px 10px 4px #fa8231)',
+  'drop-shadow(0 -6mm 4mm #f7b731)',
+  'drop-shadow(0 0 0.75rem #20bf6b)',
+  'drop-shadow(8px 8px 10px #0fb9b1)',
+  'drop-shadow(30px 10px 4px #45aaf2)',
+  'drop-shadow(0 -6mm 4mm #4b7bec)',
+  'drop-shadow(0 0 0.75rem #a55eea)',
+  'drop-shadow(8px 8px 10px #ffffff)',
+  'drop-shadow(30px 10px 4px #d1d8e0)',
+  'drop-shadow(0 -6mm 4mm #778ca3)',
+  'drop-shadow(0 0 0.75rem #2d98da)',
+  'drop-shadow(8px 8px 10px #3867d6)',
+  'drop-shadow(30px 10px 4px #8854d0)',
+  'drop-shadow(0 -6mm 4mm #a5b1c2)',
 ];
 
 $('.randomDropShadow').click(function () {
