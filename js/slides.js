@@ -45,7 +45,8 @@ $('.randomStyleBorder').click(function () {
 // randomBorder
 var borders =
 [
-  '0%',
+  '50px 20px',
+  '20px 50px',
   '5%',
   '10%',
   '15%',
@@ -55,15 +56,21 @@ var borders =
   '35%',
   '40%',
   '45%',
-  '50%'
+  '50%',
+  '15px 50px',
+  '15px 50px 30px',
+  '15px 50px 30px 5px',
+  '0%'
 ];
 
-$('.randomBorder').click(function () {
-  var style = Math.floor(Math.random() * borders.length);
-  $('img').css('border-radius', borders[style]);
-  console.log(borders[style]);
-})
+var index = 0;
 
-// $('.btn').popover();
-//
-// document.getElementById('text').value = valeur;
+$('.randomRadius').click(function () {
+  if (index < (borders.length-1)) {
+    index++;
+  } else {
+    index = 0;
+  }
+  $('img').css('border-radius', borders[index]);
+  console.log(borders[index]);
+});

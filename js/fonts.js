@@ -14,9 +14,15 @@ var fonts =
   '"Poor Story", cursive'
 ];
 
+var index = 0;
+
 $('.randomFont').click(function () {
-  var style = Math.floor(Math.random() * fonts.length);
-  $('p').css('font-family', fonts[style]);
-  $('h1').css('font-family', fonts[style]);
-  console.log(fonts[style]);
-})
+  if (index < (fonts.length-1)) {
+    index++;
+  } else {
+    index = 0;
+  }
+  $('p').css('font-family', fonts[index]);
+  $('h1').css('font-family', fonts[index]);
+  console.log(fonts[index]);
+});

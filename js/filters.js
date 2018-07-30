@@ -23,7 +23,7 @@ var grayscales =
   'grayscale(80%)',
   'grayscale(90%)',
   'grayscale(100%)',
-  'grayscale(0%)',
+  'grayscale(0%)'
 ];
 
 function changeStyleImg () {
@@ -59,17 +59,17 @@ $('.randomBlur').click(function () {
 // randomBrightness
 var brightness =
 [
-  'brightness(0)',
-  'brightness(0.10)',
-  'brightness(0.20)',
-  'brightness(0.30)',
-  'brightness(0.40)',
-  'brightness(0.50)',
-  'brightness(0.60)',
-  'brightness(0.70)',
-  'brightness(0.80)',
-  'brightness(0.90)',
-  'brightness(1)',
+  'brightness(10%)',
+  'brightness(20%)',
+  'brightness(30%)',
+  'brightness(40%)',
+  'brightness(50%)',
+  'brightness(60%)',
+  'brightness(70%)',
+  'brightness(80%)',
+  'brightness(90%)',
+  'brightness(100%)',
+  'brightness(0%)'
 ];
 
 $('.randomBrightness').click(function () {
@@ -113,6 +113,15 @@ $('.randomContrast').click(function () {
 // randomHueRotate
 var hueRotate =
 [
+  'hue-rotate(360deg)',
+  'hue-rotate(340deg)',
+  'hue-rotate(320deg)',
+  'hue-rotate(300deg)',
+  'hue-rotate(280deg)',
+  'hue-rotate(1260deg)',
+  'hue-rotate(240deg)',
+  'hue-rotate(220deg)',
+  'hue-rotate(200deg)',
   'hue-rotate(180deg)',
   'hue-rotate(160deg)',
   'hue-rotate(140deg)',
@@ -134,7 +143,6 @@ $('.randomHueRotate').click(function () {
 // randomInvert
 var invert =
 [
-  'invert(0%)',
   'invert(10%)',
   'invert(20%)',
   'invert(30%)',
@@ -144,7 +152,8 @@ var invert =
   'invert(70%)',
   'invert(80%)',
   'invert(90%)',
-  'invert(100%)'
+  'invert(100%)',
+  'invert(0%)'
 ];
 
 $('.randomInvert').click(function () {
@@ -156,7 +165,6 @@ $('.randomInvert').click(function () {
 // randomOpacity
 var opacity =
 [
-  'opacity(0%)',
   'opacity(10%)',
   'opacity(20%)',
   'opacity(30%)',
@@ -166,7 +174,8 @@ var opacity =
   'opacity(70%)',
   'opacity(80%)',
   'opacity(90%)',
-  'opacity(100%)'
+  'opacity(100%)',
+  'opacity(0%)'
 ];
 
 $('.randomOpacity').click(function () {
@@ -178,7 +187,6 @@ $('.randomOpacity').click(function () {
 // randomSaturate
 var saturate =
 [
-  'saturate(0)',
   'saturate(1)',
   'saturate(2)',
   'saturate(3)',
@@ -188,7 +196,8 @@ var saturate =
   'saturate(7)',
   'saturate(8)',
   'saturate(9)',
-  'saturate(10)'
+  'saturate(10)',
+  'saturate(0)'
 ];
 
 $('.randomSaturate').click(function () {

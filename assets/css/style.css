@@ -19,7 +19,7 @@
 .title {
   display: block;
   margin: auto;
-  max-width: 500px;
+  max-width: 550px;
   background-color: white;
   font-family: 'Pacifico', cursive;
   padding: 30px;
@@ -73,6 +73,13 @@
   outline: none;
   margin-right: 5px;
   margin-bottom: 5px;
+}
+.flex-container > .yellow:hover {
+  background-color: #fed330;
+}
+.flex-container > .yellow:active {
+  color: #fed330;
+  background-color: white;
 }
 
 .grumpy-cat {
