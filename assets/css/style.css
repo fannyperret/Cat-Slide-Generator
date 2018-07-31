@@ -179,10 +179,10 @@
 img {
   max-height: 500px;
   margin: auto;
-  border-style: solid!important;
+  border-style: solid;
   border-radius: 10px;
-  border-width: 15px!important;
-  border-color: white!important;
+  border-width: 5px;
+  border-color: black;
 }
 
 p {
