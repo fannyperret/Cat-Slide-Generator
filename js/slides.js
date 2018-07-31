@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
   for( let i in db.images) {
     if(db.images[i].type == "image") {
@@ -21,6 +21,32 @@ $(document).ready(function() {
     fade: true
   });
 })
+
+$(document).ready(function () {
+
+  var images =
+  [
+    "assets/img/grumpycat/grumpy1.jpg",
+    "assets/img/grumpycat/grumpy2.jpg",
+    "assets/img/grumpycat/grumpy3.jpg",
+    "assets/img/grumpycat/grumpy4.jpg",
+    "assets/img/grumpycat/grumpy5.png",
+    "assets/img/grumpycat/grumpy6.jpg",
+    "assets/img/grumpycat/grumpy7.jpg",
+    "assets/img/grumpycat/grumpy8.png",
+    "assets/img/grumpycat/grumpy9.jpg",
+    "assets/img/grumpycat/grumpy10.jpg"
+  ]
+
+  var gallery = document.getElementById("imgClickAndChange");
+  var index = 0;
+
+  gallery.addEventListener("click", function () {
+    gallery.src = images[index];
+    index = (index === images.length - 1) ? 0 : index + 1;
+  });
+
+});
 
 // randomStyleBorder
 var styleBorders =
