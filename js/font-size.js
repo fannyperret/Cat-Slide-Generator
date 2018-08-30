@@ -1,6 +1,21 @@
 // randomFontSize
 var fontSize =
 [
+  '2.6em',
+  '2.7em',
+  '2.8em',
+  '2.9em',
+  '3em',
+  '3.1em',
+  '3.2em',
+  '3.3em',
+  '3.4em',
+  '3.5em',
+  '3.6em',
+  '3.7em',
+  '3.8em',
+  '3.9em',
+  '4em',
   '1em',
   '1.1em',
   '1.2em',
@@ -17,16 +32,6 @@ var fontSize =
   '2.3em',
   '2.4em',
   '2.5em',
-  '2.6em',
-  '2.7em',
-  '2.8em',
-  '2.9em',
-  '3em',
-  '3.1em',
-  '3.2em',
-  '3.3em',
-  '3.4em',
-  '3.5em'
 ];
 
 var index = 0;
